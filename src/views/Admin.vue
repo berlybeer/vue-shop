@@ -8,7 +8,7 @@
         <div class="sidebar-content">
           <!-- sidebar-brand  -->
           <div class="sidebar-item sidebar-brand">
-            <a href="#">pro sidebar</a>
+            <a href="#">Vue Shop</a>
             <div id="close-sidebar" @click="closeMenu">
               <i class="fas fa-times"></i>
             </div>
@@ -16,7 +16,7 @@
           <!-- sidebar-header  -->
           <div class="sidebar-item sidebar-header d-flex flex-nowrap">
             <div class="user-pic">
-              <img class="img-responsive img-rounded" src="img/user.jpg" alt="User picture" />
+              <img class="img-responsive img-rounded" src="/img/user.png" alt="User picture" />
             </div>
             <div class="user-info">
               <span class="user-name">
@@ -47,52 +47,30 @@
           <div class="sidebar-item sidebar-menu">
             <ul>
               <li class="header-menu">
-                <span>General</span>
+                <span>Menu</span>
               </li>
               <li class="sidebar-dropdown">
                 <a href="#">
-                  <i class="fa fa-tachometer-alt"></i>
-                  <span class="menu-text">Dashboard</span>
-                  <span class="badge badge-pill badge-warning">New</span>
-                </a>
-                <div class="sidebar-submenu">
-                  <ul>
-                    <li>
-                      <a href="#">
-                        Dashboard 1
-                        <span class="badge badge-pill badge-success">Pro</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">Dashboard 2</a>
-                    </li>
-                    <li>
-                      <a href="#">Dashboard 3</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="header-menu">
-                <span>Extra</span>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-book"></i>
-                  <span class="menu-text">Documentation</span>
-                  <span class="badge badge-pill badge-primary">Beta</span>
+                  <i class="fa fa-chart-line"></i>
+                  <span class="menu-text">Overview</span>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <i class="fa fa-calendar"></i>
-                  <span class="menu-text">Calendar</span>
+                  <i class="fa fa-amazon"></i>
+                  <span class="menu-text">Products</span>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <i class="fa fa-folder"></i>
-                  <span class="menu-text">Examples</span>
+                  <i class="fa fa-shopping-cart"></i>
+                  <span class="menu-text">Orders</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-power-off"></i>
+                  <span class="menu-text">Logout</span>
                 </a>
               </li>
             </ul>
