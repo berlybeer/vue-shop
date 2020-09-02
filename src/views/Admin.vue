@@ -50,22 +50,22 @@
                 <span>Menu</span>
               </li>
               <li class="sidebar-dropdown">
-                <a href="#">
+                <router-link to="/admin/overview">
                   <i class="fa fa-chart-line"></i>
                   <span class="menu-text">Overview</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="#">
+                <router-link to="/admin/products">
                   <i class="fa fa-amazon"></i>
                   <span class="menu-text">Products</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="#">
+                <router-link to="/admin/orders">
                   <i class="fa fa-shopping-cart"></i>
                   <span class="menu-text">Orders</span>
-                </a>
+                </router-link>
               </li>
               <li>
                 <a href="#">
@@ -82,14 +82,7 @@
       <!-- page-content  -->
       <main class="page-content pt-2">
         <div id="overlay" class="overlay"></div>
-        <div class="container-fluid p-5">
-          <div class="row">
-            <div class="form-group col-md-12">
-              <h2>Pro Sidebar</h2>
-              <p>This is a responsive sidebar template with dropdown menu based on bootstrap framework.</p>
-            </div>
-          </div>
-        </div>
+        <router-view></router-view>
       </main>
       <!-- page-content" -->
     </div>
